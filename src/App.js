@@ -14,7 +14,7 @@ function App() {
 
         <Route path='login' element={<Login/>} />
 
-        <Route path='dash' element={<DashLayout/>}>
+        <Route path='dash' element={<DashLayout/>}> {/*DASH STARTED*/}
           <Route index element={<Welcome/>} />
           <Route path='notes'>
             <Route index element={<NotesList/>} />
@@ -22,8 +22,9 @@ function App() {
           <Route path='users'>
             <Route index element={<UsersList/>} />
           </Route>
-        </Route>
-      </Route>
+        </Route> {/*DASH Ended*/}
+
+      </Route> {/*Main route ended*/}
     </Routes>
    
   );
