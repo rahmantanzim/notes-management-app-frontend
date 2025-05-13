@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NotesLists = () => {
+const NotesList = () => {
   return (
     <div>notesLists</div>
   )
 }
 
-export default NotesLists
+export default NotesList
